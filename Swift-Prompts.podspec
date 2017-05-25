@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
 	s.homepage				= 'https://github.com/GabrielAlva/Swift-Prompts'
 	s.license				= { :type => 'MIT', :file => 'LICENSE.md' }
 	s.author				= { 'Gabriel Alvarado' => 'gabrielle.alva@gmail.com' }
-	s.source				= { :git => 'https://github.com/gilson-gil-gtgime/Swift-Prompts.git' }
+	s.source				= { :git => 'https://github.com/gilson-gil-gtgime/Swift-Prompts.git', :branch => 'feature/swift3' }
 	s.platform				= :ios, '8.0'
-	s.requires_arc			= true
 	s.source_files			= 'Swift-Prompts/*.{swift}'
 end
