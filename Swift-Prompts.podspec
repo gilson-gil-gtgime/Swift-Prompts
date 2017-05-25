@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
 	s.author				= { 'Gabriel Alvarado' => 'gabrielle.alva@gmail.com' }
 	s.source				= { :git => 'https://github.com/gilson-gil-gtgime/Swift-Prompts.git', :branch => 'feature/swift3' }
 	s.platform				= :ios, '8.0'
-	s.source_files			= 'Swift-Prompts/*.{swift}'
+	s.source_files			= '*/*.{swift}'
 end
